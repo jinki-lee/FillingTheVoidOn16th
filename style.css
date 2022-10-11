@@ -1,0 +1,14 @@
+body{
+    font-family: 'Lora', serif !important;
+}
+
+
+.carousel{
+    margin: auto;
+    max-width: 85%;
+}
+
+.card{
+max-width:fit-content;
+margin: 0.5em;
+}

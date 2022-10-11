@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donation Form Submission</title>
+
+    <div>
+        <!--style.css-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+      </div>
+  
+</head>
+<body>
+    <!--JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Filling the Void on 16th</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About This Project
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about1.html">Why did I started this project?</a></li>
+                  <li><a class="dropdown-item" href="about2.html">What is the product and service?</a></li>
+                  <li><a class="dropdown-item" href="about3.html">How much does it costs?</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Me
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="aboutme1.html">Education</a></li>
+                <li><a class="dropdown-item" href="aboutme2.html">Purpose</a></li>
+                <li><a class="dropdown-item" href="aboutme3.html">Goals</a></li>
+                <li><a class="dropdown-item" href="assets/Jinki_Lee_Resume.pdf" target="_blank">Résumé</a></li>
+              </ul>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="partnership.html">Partnership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="donate.html">Donate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactme.html">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--END OF NAVBAR-->
+<form action="https://formsubmit.co/jinkion16th@gmail.com" class="needs-validation" novalidate method="post">
+<div class="container-fluid">
+  <div class="form-row">
+    <div class="col-md-5 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First name" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-5 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="lastname" name="lastname"placeholder="Last name" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="col-md-5 mb-3">
+      <label for="validationCustom01">Email Address</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="col-md-5 mb-3">
+      <label for="validationCustom01">Phone Number</label>
+      <input type="tel" class="form-control" id="phone" name="phone" placeholder="XXXyyyZZZZ" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" maxlength="10" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="col-md-5 mb-3">
+      <label for="validationCustom04">City</label>
+      <input type="text" class="form-control" id="city" name="city" placeholder="City" required>
+      <div class="invalid-feedback">
+        Please provide a valid City.
+      </div>
+      </div>
+      <div class="col-md-5 mb-3">
+        <label for="validationCustom05">Zip</label>
+        <input type="text" class="form-control" id="zip" name="zip" placeholder="Zip" pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$" maxlength=7/ required>
+        <div class="invalid-feedback">
+          Please provide a valid zip. 
+    </div>
+    </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">Province</label>
+        <select class="custom-select mr-sm-2" id="province" name="province">
+          <option value="AB">Alberta</option>
+          <option value="BC">British Columbia</option>
+          <option value="MB">Manitoba</option>
+          <option value="NB">New Brunswick</option>
+          <option value="NL">Newfoundland and Labrador</option>
+          <option value="NS">Nova Scotia</option>
+          <option value="NT">Northwest Territories</option>
+          <option value="NU">Nunavut</option>
+          <option value="ON">Ontario</option>
+          <option value="PE">Prince Edward Island</option>
+          <option value="QC">Quebec</option>
+          <option value="SK">Saskatchewan</option>
+          <option value="YT">Yukon</option>
+        </select>
+        </div>
+      </div>
+
+    <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label class="mr-sm-2" for="inlineFormCustomSelect">Age</label>
+      <select class="custom-select mr-sm-2" id="age" name="age">
+        <option value="0">Under 18</option>
+        <option value="1">19-24</option>
+        <option value="2">25-34</option>
+        <option value="3">35-44</option>
+        <option value="4">45-54</option>
+        <option value="5">55-64</option>
+        <option value="6">65 and Over</option>
+    </select>
+      </div>
+    </div>
+
+
+    <div class="form-row">
+    <div class="col-md-3 mb-3">
+      <div class="input-group-prepend">
+        <label>Upload Profile Picture</label>
+      </div>
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="picture" name="picture">
+      </div>
+    </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col-md-5 mb-3">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">How many bags would you like to purchase? <sub><a href="about3.html" target="_blank">Breakdown of costs</a></sub></label>
+        <br>
+        <select id="bags" name="bags">
+          <option value="0">1</option>
+          <option value="1">2</option>
+          <option value="2">3</option>
+          <option value="3">4</option>
+          <option value="4">5</option>
+      </select>
+        </div>
+      </div>
+
+    <div class="form-row">
+      <div class="col-md-5 mb-3">
+      <label for="exampleFormControlTextarea1">Write a private message that will be included in your donation.</label>
+      <textarea class="form-control" id="text1" name="text1" rows="4" placeholder="Optional"></textarea>
+    </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col-md-5 mb-3">
+      <label for="exampleFormControlTextarea2">Write a message you want to share on the website's gallery section.</label>
+      <textarea class="form-control" id="text2" name="text2" rows="4"placeholder="Optional"></textarea>
+    </div>
+    </div>      
+
+    <div class="form-row">
+      <div class="col-md-5 mb-3">
+      <label for="exampleFormControlTextarea3">Write any addtional comments, concerns, or recommendation to improve this website.</label>
+      <textarea class="form-control" id="text3" name="text3" rows="4"placeholder="Optional"></textarea>
+    </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col-md-5 mb-3">
+      <label for="exampleFormControlTextarea4">A private message to Jinki.</label>
+      <textarea class="form-control" id="text4" name="text4" rows="4"placeholder="Optional"></textarea>
+    </div>
+    </div>
+
+      <legend class="col-form-label col-sm-3 pt-0">Do you agree to share your personal information?</legend>
+      <div class="col-sm-10">
+        <div class="form-row">
+          <input class="form-check-input" name="radio1" type="radio" name="gridRadios" id="radio1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Yes
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" name="radio2" type="radio" name="gridRadios" id="radio2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            No
+          </label>
+        </div>
+      </div>
+
+
+
+      <div class="form-row">
+      <legend class="col-form-label col-sm-3 pt-0">If Yes, please select select all the information you agree to share.</legend>
+        <div class="col-md-5 mb-3">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkbox1" value="option1" name="option1">
+            <label class="form-check-label" for="inlineCheckbox1">First Name</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkbox2" value="option2" name="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Last Name</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkbox3" value="option3" name="option3">
+            <label class="form-check-label" for="inlineCheckbox3">Age</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkbox4" value="option4" name="option4">
+            <label class="form-check-label" for="inlineCheckbox4">City</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkbox5" value="option5" name="option5">
+            <label class="form-check-label" for="inlineCheckbox5">Province</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkbox6" value="option6" name="option6">
+            <label class="form-check-label" for="inlineCheckbox6">Profile Picture</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkbox7" value="option7" name="option7">
+            <label class="form-check-label" for="inlineCheckbox7">The message you want to share.</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkbox8" value="option8" name="option8">
+            <label class="form-check-label" for="inlineCheckbox7">Amount of Bags Purchased</label>
+          </div>
+
+      </div>
+      </div>
+  
+      
+<br>
+<button class="btn btn-secondary" type="reset">Clear form</button>
+  <button class="btn btn-primary" type="submit" id="sub">Submit form</button>
+</div>
+
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+
+
+</script>
+
+</form>
+
+  
+</body>
+</html>
