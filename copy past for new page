@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About: This Project</title>
+    <title>Filling the Void on 16th</title>
 
     <div>
       <!--style.css-->
@@ -90,44 +90,6 @@
       </div>
     </nav>
 <!--END OF NAVBAR-->
-<div class="container-fluid">
-  <div class="row justify-content-start">
-    <div class="col-8 offset-2">
-      <br>
-      <h1>
-        About this Project
-      </h1>
-      <br>
-      <p>
-        I commute to my school, Southern Alberta Institute of Technology (SAIT), located on 16th ave, in the comfort of my own vehicle. Nearly at every stop for a red light, I find myself in line with a person in financial need walking towards my direction asking car to car for quite literally anything they can offer. I’ve witnessed many times kind strangers giving spare change, or sometimes other non-currency items to those in need - but I am guilty of just rolling up the window and looking away in the distance.
-      </p>          
-      <p>
-        I wish I could give spare change without hesitating, but I will never know what their story is or how they ended up in the position they are in. An article I read online explains why you should not give money directly to people experiencing homelessness, is because you will never know how that money will be used and if it will end up cycling back to their addictions such as alcohol & substance abuse, gambling, etc. Instead, there are other ways to support these by giving non-currency items. There are numerous online thread posts of people who have previously experienced being homelessness and the Calgary Mustard Seed recommending giving essential items, such as socks, hygiene products, and gift cards to fast food restaurants or non-perishable food, rather than money.
-      </p>
-      <p>
-        Easier said than done... 
-      </p>
-      <p>
-        Have you always been prepared to give these items in the moment? Do you carry around a brand-new pair of socks to give away? Because I surely don’t.
-      </p>
-      <p>
-        I am fortunate enought to live a comfortable life, having everything I need and want with the click of one button on Amazon, or not having to worry if there will be enough food on the table. I live a privileged life by going to the University of Calgary to finish my degree in business, and then enrolling at the Southern Alberta Institute of Technology for software development.
-        Being set up for success and having a lot of stress taken off of me is a blessing, and that is why I live by the phrase of “paying it forward”.
-      </p>
-      <p>
-        That is also why I started this project. It is a non-profit project I, myself, run completely at the cost of my own time, money, and the generous donations from others. It a compression bag filled with a total of 16 commodities, that I have researched from the perspective of those who were once homeless and the Calgary Mustard Seed. My goal is to distribute these bags for the next time a neighbour-in-need is walking towards me.
-      </p>
-      <p>
-        After finishing my first semester at SAIT, one of my instructors quoted that we would be the next generation to quite literally fill in the void and change the world. The phrase stuck with me, as there is a void to be filled by the upcoming generation of software developers. A void to be filled by people with unique talents. A void to be filled by love. A void to be filled by good people. A void to be filled by someone like you.
-      </p>
-      <p>
-        This project demonstrates the education I have learned from my business and software development background.
-      </p>
-
-    </div>
-  </div>
-</div>
-
   
 </body>
 </html>
